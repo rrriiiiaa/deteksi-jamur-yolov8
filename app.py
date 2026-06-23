@@ -25,53 +25,6 @@ st.set_page_config(
 )
 
 # =========================================================
-# THEME TOGGLE
-# =========================================================
-
-if "theme" not in st.session_state:
-    st.session_state.theme = "dark"
-
-theme_toggle = st.sidebar.toggle(
-    "🌙 Dark Mode",
-    value=(st.session_state.theme == "dark")
-)
-
-if theme_toggle:
-    st.session_state.theme = "dark"
-else:
-    st.session_state.theme = "light"
-
-if st.session_state.theme == "dark":
-
-    bg_main = "#0f172a"
-    bg_secondary = "#111827"
-
-    card_bg = "rgba(30,41,59,0.75)"
-
-    text_primary = "#f8fafc"
-    text_secondary = "#94a3b8"
-
-    border_color = "rgba(255,255,255,0.08)"
-
-    gradient_1 = "#6366f1"
-    gradient_2 = "#8b5cf6"
-
-else:
-
-    bg_main = "#f8fafc"
-    bg_secondary = "#e2e8f0"
-
-    card_bg = "rgba(255,255,255,0.85)"
-
-    text_primary = "#0f172a"
-    text_secondary = "#64748b"
-
-    border_color = "rgba(15,23,42,0.08)"
-
-    gradient_1 = "#4f46e5"
-    gradient_2 = "#7c3aed"
-
-# =========================================================
 # THEME COLOR
 # =========================================================
 
