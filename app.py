@@ -28,7 +28,8 @@ st.set_page_config(
 # THEME COLOR
 # =========================================================
 
-if st.session_state.theme == "dark":
+if "theme" not in st.session_state:
+    st.session_state["theme"] = "dark"
 
     bg_main = "#0f172a"
     bg_secondary = "#111827"
@@ -712,7 +713,7 @@ st.set_page_config(
 
 if "theme" not in st.session_state:
     st.session_state["theme"] = "dark"
-    
+
 # =========================================================
 # THEME TOGGLE
 # =========================================================
