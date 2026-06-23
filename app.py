@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # =========================================================
 # 🍄 AI MUSHROOM DETECTION SYSTEM
 # PREMIUM MODERN VERSION
@@ -726,7 +725,8 @@ st.markdown("""
 🎯Smart Detection System using YOLOv8🎯
 
 </center>
-=======
+""", unsafe_allow_html=True)
+
 # =========================================================
 # 🍄 AI MUSHROOM DETECTION SYSTEM
 # PREMIUM MODERN VERSION
@@ -1440,19 +1440,3 @@ with tab2:
 
     camera.release()
 
-# =========================================================
-# FOOTER
-# =========================================================
-
-st.markdown("---")
-
-st.markdown("""
-<center>
-
-### 🍄 AI Mushroom Detection Dashboard
-
-🎯Smart Detection System using YOLOv8🎯
-
-</center>
->>>>>>> 56ff73b58d7ef8f30ed90529e5e050b8c72d3320
-""", unsafe_allow_html=True)
