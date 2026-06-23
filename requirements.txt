@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit
 ultralytics
 pillow
@@ -6,4 +7,14 @@ plotly
 opencv-python-headless
 numpy
 torch
+=======
+streamlit
+ultralytics
+pillow
+pandas
+plotly
+opencv-python-headless
+numpy
+torch
+>>>>>>> 56ff73b58d7ef8f30ed90529e5e050b8c72d3320
 torchvision
